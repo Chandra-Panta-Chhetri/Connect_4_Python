@@ -1,8 +1,31 @@
-# Connect 4 Python Game using Pycharm for GUI
+# Connect 4 using Pygame
+Classic Connect 4 with Pygame GUI. All boards size is supported (default: 6 by 7).
 
-Integrated code from: https://github.com/KeithGalli/Connect4-Python
-for any GUI related code(e.g. creating game window, displaying game board,...etc).
+## What program looks like
 
-connect_4.py : Works with any sized board. If one wishes to change the board size, simply change the global variables, NUM_ROWS and   
-               NUM_COLS correspondingly. Red pieces represents player 1 yellow pieces represent player 2. 
-               Game is played using the mouse/trackpad. To drop a piece into a specific column, simply hover over the column with the mouse                and click the mouse/trackpad to drop. 
+![6 by 7 board - Vertical Win](pictures/connect_4_pic_2.png "6 by 7 board - Vertical Win")
+![5 by 4 board - Diagonal Win](pictures/connect_4_pic_3.png "5 by 4 board - Diagonal Win")
+
+## Features
+
+* Flexible implementation allows for playing with any sized board (Simply change NUM_ROWS and NUM_COLS)
+* Comprehensible UI
+
+## Dependencies
+
+* [Python](https://www.python.org/downloads/)
+* Python IDE - Any will work such as [Pycharm](https://www.jetbrains.com/pycharm/download/)
+* [Pygame](https://www.pygame.org/download.shtml)
+
+## How to run program
+
+1. Fork/download manually/clone the repo.
+2. Open file in Python IDE & Run connect_4.py
+
+## How to play (Controls)
+
+Player 1 == Red pieces <br/>
+Player 2 == Yellow pieces
+
+Use the mouse to move the piece to any column. <br/>
+Left click the mouse to drop a piece into a column.
