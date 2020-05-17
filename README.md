@@ -5,7 +5,7 @@ Classic Connect 4 with Pygame GUI. All boards size is supported (default: 6 by 7
 * [Features](#features)
 * [Dependencies](#dependencies)
 * [How to run program](#how-to-run-program)
-* [How to play (controles)](#how-to-play-controls)
+* [How to play (controls)](#how-to-play-controls)
 
 ## What program looks like
 
