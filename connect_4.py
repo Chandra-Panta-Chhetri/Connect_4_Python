@@ -295,7 +295,7 @@ def main(board: List[list], screen: pygame.Surface) -> None:
     pygame.display.update()
     pygame.time.wait(3500)
 
-
+# Used https://github.com/KeithGalli/Connect4-Python for GUI
 def draw_board(screen: pygame.Surface, board: List[list]) -> None:
     """Draw connect_4 board onto output window using screen.
     """
